@@ -1,20 +1,32 @@
 .app{
-    position: absolute;
     width: 1440px;
     height: 1818px;
-    left: 0px;
-    top: 0px;
+    margin: 0 auto;
+}
+#main{
+    position: absolute;
+    width: 1440px;
+    height: 775px;
+    margin: auto;
+}
+#footer{
+    position: absolute;
+    top: 1499px;
+    width: 1440px;
+    height: 319px;
+    margin: auto;
+
 }
 #header{
     position: absolute;
     width: 1440px;
-    height: 660px;
+    height: 725px;
     margin: auto;
 }
 #header video{
     position: absolute;
     width: 1440px;
-    height: 660px;
+    height: 725px;
     top: 0;
     left: 0;
     object-fit: cover;
@@ -104,7 +116,7 @@
     bottom: 47.27%;
 }
 #Rectangle{    
-width: 134px;
+    width: 134px;
     height: 38px;
     box-sizing: border-box;
     left: 88.11%;
@@ -173,4 +185,238 @@ width: 134px;
     top: 860px;
     background: #FFFFE0;
     border-radius: 14px;
+}
+.doc1{
+    list-style: none;
+}
+.doc11{
+    position: absolute;
+    width: 177px;
+    height: 32px;
+    left: 30px;
+    top: 40px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    opacity: 0.8;
+}
+.doc12{
+    position: absolute;
+    width: 447px;
+    height: 56px;
+    left: 31px;
+    top: 98px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}
+.doc13{
+    position: absolute;
+    width: 447px;
+    height: 56px;
+    left: 31px;
+    top: 170px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}
+.doc2{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+    list-style: none;
+}
+.doc21{
+    position: absolute;
+    width: 49px;
+    height: 28px;
+    left: 30px;
+    top: 258px;
+}
+.doc22{
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    left: 146px;
+    top: 258px;
+}
+.doc23{
+    position: absolute;
+    width: 68px;
+    height: 28px;
+    left: 294px;
+    top: 258px;
+}
+.doc24{
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 418px;
+    top: 258px;
+}
+.doc25{
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    left: 256px;
+    top: 393px;
+    color: #FFFFFF;
+}
+.doc3{
+    font-family: 'Centra No1';
+    font-style: normal;
+    line-height: 28px;
+    list-style: none;
+    color: #000000;
+    opacity: 0.8;
+}
+.doc31{
+    position: absolute;
+    width: 164px;
+    height: 32px;
+    left: 30px;
+    top: 40px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.doc32{
+    position: absolute;
+    width: 413px;
+    height: 84px;
+    left: 30px;
+    top: 98px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.doc33{
+    position: absolute;
+    width: 413px;
+    height: 56px;
+    left: 30px;
+    top: 198px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.doc34{
+    position: absolute;
+    width: 465px;
+    height: 56px;
+    left: 30px;
+    top: 278px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.number{
+    color: #70A693;
+}
+.doc35{
+    position: absolute;
+    width: 39px;
+    height: 10px;
+    left: 252px;
+    top: 393px;
+    color: #FFFFFF;
+}
+.Rectangle1{
+    position: absolute;
+    left: 39%;
+    right: 38%;
+    top: 84%;
+    bottom: 8%;
+    background: #A28840;
+    border-radius: 22px;
+    }
+/* footer */
+.footer1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 19.01%;
+    background: #292A2B;
+}
+.footer2{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 80.99%;
+    bottom: 0%;
+    background: #0B0B0B;
+}
+.ymner1{
+    position: absolute;
+    left: 15%;
+    right: 69.31%;
+    top: 35%;
+    bottom: 56.11%;
+}
+.footer_menu1{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    list-style: none;
+}
+.footer_menu11{
+    position: absolute;
+    left: 49.03%;
+    right: 42.71%;
+    top: 24.73%;
+    bottom: 70.53%;
+}
+.footer_menu12{
+    position: absolute;
+    left: 49.03%;
+    right: 43.33%;
+    top: 39.87%;
+    bottom: 54.86%;
+}
+.footer_menu2{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    list-style: none;
+}
+.footer_menu21{
+    position: absolute;
+    left: 69.1%;
+    right: 24.51%;
+    top: 21.94%;
+    bottom: 69.28%;
+}
+.footer_menu22{
+    position: absolute;
+    left: 69.1%;
+    right: 20%;
+    top: 37.62%;
+    bottom: 53.61%;
+}
+.footer_menu23{
+    position: absolute;
+    left: 69.1%;
+    right: 18.12%;
+    top: 53.29%;
+    bottom: 37.93%;
 }
