@@ -8,17 +8,13 @@
 #header{
     position: absolute;
     width: 1440px;
-    height: 1499px;
-    left: 0px;
-    top: 0px;
-
-    opacity: 0.9;
+    height: 660px;
+    margin: auto;
 }
 #header video{
     position: absolute;
     width: 1440px;
-    height: 50%;
-    position: fixed;
+    height: 660px;
     top: 0;
     left: 0;
     object-fit: cover;
@@ -62,24 +58,65 @@
     color: #ffffff;
 }
 .menu3{
-    left: 92.01%;
-    right: 3.82%;
-    top: 27.04%;
-    bottom: 33.1%;
+    left: 88.01%;
+    right: 7.82%;
+    top: 16.04%;
+    bottom: 44.1%;
     color: #A78730;
-    opacity: 0.9;
+    opacity: 0.9
+}
+
+.vector{
+    position: absolute;
+    left: 100%;
+    right: 0%;
+    top: 38%;
+    bottom: 25%;  
+}
+.vector1{
+    position: absolute;
+    left: 93%;
+    right: 0%;
+    top: 38%;
+    bottom: 25%;
+}
+.vector2{
+    position: absolute;
+    left: 42%;
+    right: 6.05%;
+    top: 74.59%;
+    bottom: 0%;
+}
+
+.vector3{
+    position: absolute;
+    left: 205%;
+    right: 1%;
+    top: 66%;
+    bottom: 25%;
+
+}
+.vector4{
+    position: absolute;
+    left: 46.5%;
+    right: 23.63%;
+    top: 48%;
+    bottom: 47.27%;
 }
 #Rectangle{    
+width: 134px;
+    height: 38px;
     box-sizing: border-box;
     left: 88.11%;
     right: 0%;
     top: 19.93%;
     bottom: 25.98%;
+    padding: 5.5px 44px;
     background: #FFFFFF;
     opacity: 0.9;
     border: 1px solid #FFFFFF;
-    border-radius: 28px;}
-
+    border-radius: 28px;
+}
 
 .body{
     list-style: none;
@@ -117,4 +154,23 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+}
+/* main */
+#box1{
+    position: absolute;
+    width: 540px;
+    height: 462px;
+    left: 165px;
+    top: 860px;
+    background: #F2F7FF;
+    border-radius: 14px;
+}
+#box2{
+    position: absolute;
+    width: 540px;
+    height: 462px;
+    left: 735px;
+    top: 860px;
+    background: #FFFFE0;
+    border-radius: 14px;
 }
