@@ -3,6 +3,10 @@
     height: 1818px;
     margin: 0 auto;
 }
+@font-face {
+    font-family: 'Centra No1';
+    src: url(./centrano1-and-no2-font/CentraNo1-Book.ttf);
+}
 #main{
     position: absolute;
     width: 1440px;
@@ -91,7 +95,7 @@
 }
 .vector1{
     position: absolute;
-    left: 93%;
+    left: 100%;
     right: 0%;
     top: 38%;
     bottom: 25%;
@@ -462,7 +466,7 @@
 .footer_menu12{
     position: absolute;
     left: 49.03%;
-    right: 43.33%;
+    right: 40%;
     top: 39.87%;
     bottom: 54.86%;
 }

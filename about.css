@@ -4,6 +4,10 @@
     margin: 0 auto;
     background: #EDF8EF;
 }
+@font-face {
+    font-family: 'Centra No1';
+    src: url(../centrano1-and-no2-font/CentraNo1-Book.ttf);
+}
 #main{
     position: absolute;
     width: 1440px;
@@ -82,7 +86,7 @@
 }
 .vector1{
     position: absolute;
-    left: 93%;
+    left: 100%;
     right: 0%;
     top: 38%;
     bottom: 25%;
@@ -274,6 +278,62 @@
     left: 515px;
     top: 2065px;    
 }
+.bgr1{
+    position: absolute;
+    width: 248.73px;
+    height: 380.71px;
+    left: 164px;
+    top: 562px;
+}
+.bgr2{
+    position: absolute;
+    width: 248.27px;
+    height: 380px;
+    left: 1026.73px;
+    top: 1009px;
+}
+.bgr3{
+    position: absolute;
+    width: 248.92px;
+    height: 381px;
+    left: 164px;
+    top: 1456px;
+}
+.bgr4{
+    position: absolute;
+    width: 210px;
+    height: 274px;
+    left: 164px;
+    top: 2013px;
+}
+.po1{
+    position: absolute;
+    width: 327.87px;
+    height: auto;
+    left: 214.91px;
+    top: 590.21px;
+}
+.po2{
+    position: absolute;
+    width: 296.2px;
+    height: auto;
+    left: 930px;
+    top: 1050.55px;
+}
+.po3{
+    position: absolute;
+    width: 327.34px;
+    height: auto;
+    left: 208.47px;
+    top: 1491.48px;
+}
+.po4{
+    position: absolute;
+    width: 209.73px;
+    height: auto;
+    left: 210px;
+    top: 2045.11px;
+}
 /* footer */
 .footer1{
     position: absolute;
@@ -322,7 +382,7 @@
 .footer_menu12{
     position: absolute;
     left: 49.03%;
-    right: 43.33%;
+    right: 40%;
     top: 39.87%;
     bottom: 54.86%;
 }
