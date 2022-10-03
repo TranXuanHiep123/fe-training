@@ -1,0 +1,265 @@
+.app{
+    width: 1440px;
+    height: 2444px;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+@font-face {
+    font-family: 'Centra No1';
+    src: url(../centrano1-and-no2-font/CentraNo1-Book.ttf);
+}
+#main{
+    position: absolute;
+    width: 1440px;
+    height: 2045px;
+    top: 80px;
+    margin: auto;
+}
+#footer{
+    position: absolute;
+    top: 2125px;
+    width: 1440px;
+    height: 319px;
+    margin: auto;
+
+}
+#header{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    margin: auto;
+}
+/* head */
+.top{
+    position: absolute;
+    width: 1127px;
+    height: 70.25px;
+    left: 130px;
+    top: 0px;
+}
+.material-symbols-outlined1{
+    position: absolute;
+    top: -9999px;
+}
+.ymner{
+    position: absolute;
+    left: 0%;
+    right: 87%;
+    top: 2.85%;
+    bottom: 3.21%;
+}
+.top li{
+    position: absolute;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    list-style: none;
+    text-decoration: none;
+}
+.menu1{
+    left: 63.89%;
+    right: 31.23%;
+    top: 27.04%;
+    bottom: 33.1%;
+    color: #000000; 
+}
+.menu2{
+    left: 74%;
+    right: 16.42%;
+    top: 27.04%;
+    bottom: 33.1%;
+    color: #000000;
+}
+.menu3{
+    left: 88.01%;
+    right: 7.82%;
+    top: 16.04%;
+    bottom: 44.1%;
+    color: #A78730;
+    opacity: 0.9
+}
+
+.vector{
+    position: absolute;
+    left: 100%;
+    right: 0%;
+    top: 38%;
+    bottom: 25%;  
+}
+.vector1{
+    position: absolute;
+    left: 100%;
+    right: 0%;
+    top: 38%;
+    bottom: 25%;
+}
+.vector2{
+    position: absolute;
+    left: 42%;
+    right: 6.05%;
+    top: 74.59%;
+    bottom: 0%;
+}
+
+.vector3{
+    position: absolute;
+    left: 205%;
+    right: 1%;
+    top: 66%;
+    bottom: 25%;
+
+}
+.vector4{
+    position: absolute;
+    left: 46.5%;
+    right: 23.63%;
+    top: 48%;
+    bottom: 47.27%;
+}
+#Rectangle{    
+    width: 134px;
+    height: 38px;
+    box-sizing: border-box;
+    left: 88.11%;
+    right: 0%;
+    top: 19.93%;
+    bottom: 25.98%;
+    padding: 5.5px 44px;
+    background: #FFFFFF;
+    opacity: 0.9;
+    border: 1px solid #FFFFFF;
+    border-radius: 28px;
+}
+.line1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    bottom: 0%;
+    opacity: 0.2;
+    border: 0.5px solid #000000;
+}
+/* main */
+
+/* footer */
+.footer1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 19.01%;
+    background: #292A2B;
+}
+.footer2{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 80.99%;
+    bottom: 0%;
+    background: #0B0B0B;
+}
+.ymner1{
+    position: absolute;
+    left: 15%;
+    right: 69.31%;
+    top: 35%;
+    bottom: 56.11%;
+}
+.footer_menu1{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    list-style: none;
+}
+.footer_menu11{
+    position: absolute;
+    left: 49.03%;
+    right: 42.71%;
+    top: 24.73%;
+    bottom: 70.53%;
+}
+.line{
+    display: none;
+    position: absolute;
+}
+.footer_menu12{
+    position: absolute;
+    left: 49.03%;
+    right: 40%;
+    top: 39.87%;
+    bottom: 54.86%;
+}
+.footer_menu2{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    list-style: none;
+}
+.footer_menu21{
+    position: absolute;
+    left: 69.1%;
+    right: 24.51%;
+    top: 21.94%;
+    bottom: 69.28%;
+}
+.footer_menu22{
+    position: absolute;
+    left: 69.1%;
+    right: 20%;
+    top: 37.62%;
+    bottom: 53.61%;
+}
+.footer_menu23{
+    position: absolute;
+    left: 69.1%;
+    right: 18.12%;
+    top: 53.29%;
+    bottom: 37.93%;
+}
+.anh{
+    position: absolute;
+    left: 15%;
+    right: 79.95%;
+    top: 40.09%;
+    bottom: 7.52%;
+}
+.eng{
+    position: absolute;
+    left: 18.25%;
+    right: 75.42%;
+    top: 29.58%;
+    bottom: 5.64%;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    list-style: none;
+}
+.link{
+    position: absolute;
+    left: 52.18%;
+    right: 2.12%;
+    top: 25.95%;
+    bottom: 18.27%;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    list-style: none;
+}

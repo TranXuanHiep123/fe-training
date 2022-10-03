@@ -37,7 +37,7 @@
     left: 130px;
     top: 0px;
 }
-.material-symbols-outlined{
+.material-symbols-outlined1{
     position: absolute;
     top: -9999px;
 }
@@ -196,7 +196,7 @@
     opacity: 0.8;
 }
 .lew3{
-    position: relative;
+    position: absolute;
     width: 287px;
     height: 259px;
     left: 731px;
@@ -377,7 +377,120 @@
     font-size: 15px;
     line-height: 24px;
 }
+.search{
+    box-sizing: border-box;
+    position: absolute;
+    width: 540px;
+    height: 44px;
+    left: 109px;
+    top: 480px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 22px;
+}
+.search1{
+    position: absolute;
+    width: 192px;
+    height: 25px;
+    left: 64px;
+    top: 9px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    border: 0px;
+    outline: none;
+}
+.search2{
+    position: absolute;
+    left: 4.01%;
+    right: 5.99%;
+    top: 27%;
+    bottom: 0%;
+}
+.Rectangle3{
+    position: absolute;
+    width: 106px;
+    height: 44px;
+    left: 1224px;
+    top: 480px;
+    background: #A78730;
+    border-radius: 22px;
+}
+.material-symbols-outlined{
+    position: absolute;
+    width: 13px;
+    height: 1.53px;
+    left: 14.73px;
+    top: 9px;
+    color: #FFFFFF;
+}
+.filter{
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    left: 45px;
+    top: 12px;
+    list-style: none;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.lewlew{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
 
+.re{
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 109px;
+    top: 583px;
+}
+.so{
+    position: absolute;
+    width: 190px;
+    height: 21px;
+    left: 894px;
+    top: 583px;
+}
+.sh{
+    position: absolute;
+    width: 250px;
+    height: 21px;
+    left: 1132px;
+    top: 583px;
+}
+.font{
+    color: #A78730;
+}
+.gap{
+    position: absolute;
+    top : 622px;
+    width: 1220px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 110px;
+
+  }
+  .grid {
+    width: 388px;
+    height: 191px;
+    margin-top: 32px;
+    background-color: #EB5181;
+    margin-left: 28px;
+  }
 /* footer */
 .footer1{
     position: absolute;
