@@ -306,6 +306,13 @@
     left: 23px;
     top: 61px;
 }
+.mu{
+    position: absolute;
+    top: 40.06px;
+    left: 258px;
+    width: 8.87px;
+    height: 6px;
+}
 .blink1{
     color:#A78730;
 }
@@ -456,41 +463,131 @@
     width: 100px;
     height: 21px;
     left: 109px;
-    top: 583px;
+    top: 560px;
 }
 .so{
     position: absolute;
     width: 190px;
     height: 21px;
     left: 894px;
-    top: 583px;
+    top: 560px;
 }
 .sh{
     position: absolute;
     width: 250px;
     height: 21px;
     left: 1132px;
-    top: 583px;
+    top: 560px;
 }
 .font{
     color: #A78730;
 }
 .gap{
     position: absolute;
-    top : 622px;
-    width: 1220px;
+    top : 600px;
+    width: 1250px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 110px;
-
   }
-  .grid {
+.gird {
+    position: relative;
     width: 388px;
     height: 191px;
     margin-top: 32px;
-    background-color: #EB5181;
+    background-color:#FFFFFF;
     margin-left: 28px;
   }
+.gird1{
+    position: absolute;
+    width: 336px;
+    height: 52px;
+    left: 20px;
+    top: 5px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.9;
+  }
+.gird2{
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    left: 20px;
+    top: 70px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.8;
+  }
+.gird3{
+    position: absolute;
+    left: 40px;
+    top: 138px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.9;
+  }
+.elip1{
+    position: absolute;
+    left: 5.15%;
+    right: 91.75%;
+    top: 82.72%;
+    bottom: 10.99%;
+    border-radius: 50%;
+    background: #6868ED;
+}
+.elip2{
+    position: absolute;
+    left: 90.72%;
+    right: 4.12%;
+    top: 81.15%;
+    bottom: 8.38%;
+    background: #619D87;
+    border-radius: 6px;
+}
+.elip3{
+    position: absolute;
+    left: 92.13%;
+    right: 5.53%;
+    top: 84.01%;
+    bottom: 11.23%;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+.box{
+    box-sizing: border-box;
+    position: relative;
+    width: 160px;
+    height: 44px;
+    left: 640px;
+    top: 2440px;
+    border: 1px solid #A78730;
+    border-radius: 22px;
+}
+.text{
+    position: absolute;
+    width: 77px;
+    height: 21px;
+    left: 37px;
+    top: -6px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #A78730;
+}
 /* footer */
 .footer1{
     position: absolute;
