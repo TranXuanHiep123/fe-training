@@ -7,6 +7,7 @@
     font-family: 'Centra No1';
     src: url(./centrano1-and-no2-font/CentraNo1-Book.ttf);
 }
+
 #main{
     position: absolute;
     width: 1440px;
@@ -58,7 +59,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     list-style: none;
     text-decoration: none;
@@ -220,7 +221,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     color: #000000;
     opacity: 0.7;
@@ -234,7 +235,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     color: #000000;
     opacity: 0.7;
@@ -243,7 +244,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     color: #000000;
     opacity: 0.7;
@@ -369,7 +370,7 @@
     left: 30px;
     top: 98px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .doc33{
     position: absolute;
@@ -378,7 +379,7 @@
     left: 30px;
     top: 198px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .doc34{
     position: absolute;
@@ -387,7 +388,7 @@
     left: 30px;
     top: 278px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .number{
     color: #70A693;
@@ -446,7 +447,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -474,7 +475,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -518,7 +519,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.6;
@@ -533,7 +534,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 37px;
     color: #FFFFFF;
     opacity: 0.5;
@@ -640,7 +641,7 @@
     height: 78px;
     left: 24px;
     top: 70px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
 }
 .doc13{
@@ -651,7 +652,7 @@
     height: 28px;
     left: 24px;
     top: 166px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
 }
 .doc22{
@@ -659,7 +660,7 @@
     height: 28px;
     left: 24px;
     top: 244px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
 }
 .doc23{
@@ -667,7 +668,7 @@
     height: 28px;
     left: 24px;
     top: 322px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
 }
 .doc24{
@@ -675,7 +676,7 @@
     height: 28px;
     left: 24px;
     top: 400px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
 }
 .doc25{
@@ -686,7 +687,7 @@
     top: 86.5%;
     bottom: 30%;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 17px;
 }
 .doc31{
@@ -702,7 +703,7 @@
     height: 104px;
     left: 24px;
     top: 70px;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 26px;
 }
 .doc33{
@@ -713,7 +714,7 @@
     height: 84px;
     left: 24px;
     top: 194px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
 }
 .doc35{
@@ -721,7 +722,7 @@
     right: 36.67%;
     top: 85.5%;
     bottom: 30%;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 17px;
 }
 .Rectangle1{
@@ -775,7 +776,7 @@ display: none;
     height: 28px;
     left: 58px;
     top: 200px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
 }
 .num2{
@@ -783,7 +784,7 @@ display: none;
     height: 28px;
     left: 58px;
     top: 278px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
 }
 .num3{
@@ -791,7 +792,7 @@ display: none;
     height: 28px;
     left: 58px;
     top: 356px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;   
 }
 .num4{
@@ -799,7 +800,7 @@ display: none;
     height: 28px;
     left: 58px;
     top: 434px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;   
 }
 /* footer */

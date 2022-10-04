@@ -53,7 +53,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     list-style: none;
     text-decoration: none;
@@ -210,7 +210,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
     color: #000000;
     opacity: 0.7;
@@ -366,7 +366,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -394,7 +394,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -437,7 +437,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.6;
@@ -452,7 +452,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 37px;
     color: #FFFFFF;
     opacity: 0.5;

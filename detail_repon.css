@@ -1,0 +1,302 @@
+@media only screen and (max-width: 600px){
+    .app{
+        width: 375px;
+        height: 2943px;
+    }
+    #main{
+        width: 375px;
+        height: 2177px;
+        top: 59px;
+        left: 0px;
+    }
+    #footer{
+        top: 2355px;
+        width: 375px;
+        height: 588px;
+    
+    }
+    #header{
+        width: 375px;
+        height: 59px;
+    }
+/* head */
+.top{
+    width: 375px;
+    height: auto;
+    left:2px;
+}
+.top li{
+    display: none;
+}
+.ymner{
+    width: 98px;
+    height: 44px;
+    left: 2px;
+    top: -10px;
+}
+.material-symbols-outlined{
+    width: 32px;
+    height: 21px;
+    top: 3px;
+    right: 57px;
+    color: #000000;
+}
+.line1{
+    width: 375px;
+    height: 0px;
+    left: 0px;
+    top: 100%;
+    border: 0.5px solid #000000;
+    opacity: 0.2;
+}
+/* main */
+.elip{
+    left: 20px;
+    top: 34px;
+}
+.grants{
+    left: 42px;
+    top: 13.5px;
+}
+.x{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 32px;
+    left: 345px;
+}
+.h1{
+    position: absolute;
+    width: 280px;
+    height: 81px;
+    left: 48px;
+    top: 82px;
+    font-size: 21px;
+}
+.main_menu{
+    font-size: 0.8125rem;
+}
+.main_menu1{
+    width: 86px;
+    height: 24px;
+    left: 20px;
+    top: 240px;
+}
+.main_menu2{
+    width: 59px;
+    height: 24px;
+    left: 20px;
+    top: 312px;
+}
+.main_menu3{
+    width: 101px;
+    height: 24px;
+    left: 20px;
+    top: 385px;
+}
+.main_menu4{
+    width: 68px;
+    height: 24px;
+    left: 20px;
+    top: 457px;
+}
+.main_menu5{
+    width: 82px;
+    height: 24px;
+    left: 20px;
+    top: 529px;
+}
+.data{
+    font-size: 0.875rem;
+}
+.data1{
+    width: 74px;
+    height: 24px;
+    left: 281px;
+    top: 238px;
+}
+.data2{
+    width: 99px;
+    height: 24px;
+    left: 256px;
+    top: 310px;
+}
+.data3{
+    width: 177px;
+    height: 24px;
+    left: 178px;
+    top: 383px;
+}
+.data4{
+    width: 114px;
+    height: 24px;
+    left: 228px;
+    top: 455px;
+    font-size: 0.875rem;
+}
+.pen1{
+    left: 340px;
+    top: 478.12px;
+}
+.pen2{
+    left: 348px;
+    top: 475.5px;
+}
+.main_line1{
+    top: 297px;
+    width: 335px;
+    height: 0px;
+    left: 20px;
+}
+.main_line2{
+    width: 335px;
+    height: 0px;
+    left: 20px;
+    top: 370px ;
+
+}
+.main_line3{
+    top: 449px;
+    width: 335px;
+    height: 0px;
+    left: 20px; 
+}
+.main_line4{    
+    top: 517px; 
+    width: 335px;
+    height: 0px;
+    left: 20px;
+}
+.conten{
+    width: 335px;
+    height: 1536px;
+    left: 20px;
+    top: 555px;
+    font-size: 13px;
+}
+.background-conten{
+    width: 147px;
+    height: 41px;
+    left: 114px;
+    top: 2105px;
+    background: #A78730;
+    border-radius: 32px;
+}
+/* footer */
+.footer2{
+    left: 0%;
+    right: 0%;
+    top: 73.38%;
+    bottom: 0%;
+}
+.ymner1{
+    width: 146px;
+    height: 66px;
+    left: 1.07%;
+    right: 60%;
+    top: 3.25%;
+    bottom: 84.52%;
+}
+.Y{
+    position: absolute;
+    Width :23.56px;
+    Height:22px;
+    Top:29.61px;
+    Left:17.23px;
+}
+.M{
+    position: absolute;
+    Width :23.65px;
+    Height:21.77px;
+    Top:29.61px;
+    Left:42.89px;
+}
+.N{
+    position: absolute;
+    Width :18.42px;
+    Height:21.77px;
+    Top:29.61px;
+    Left:69.57px;
+}
+.E{
+    position: absolute;
+    Width :15.08px;
+    Height:21.77px;
+    Top:29.61px;
+    Left:91.03px;
+}
+.R{
+    position: absolute;
+    Width :18.82px;
+    Height:22px;
+    Top:29.61px;
+    Left:108.75px;
+}
+.anh{
+    left: 10%;
+    right: 81.95%;
+    top: 22.09%;
+    bottom: 7.52%;  
+}
+.eng{
+    left: 22.25%;
+    right: 75.42%;
+    top: 18.58%;
+}
+.link{
+    left: 9.6%;
+    right: 14.93%;
+    top: 49.1%;
+    bottom: 3.74%;
+    font-size: 11px;
+    line-height: 24px;
+}
+.footer_menu11{
+    left: 5.6%;
+    right: 61.67%;
+    top: 21%;
+    bottom: 74.32%;
+    font-size: 12px;
+    line-height: 28px;
+}
+.footer_menu12{
+    left: 5.6%;
+    right: 65.07%;
+    top: 27%;
+    bottom: 66.84%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+}
+.footer_menu21{
+    left: 5.6%;
+    right: 69.87%;
+    top: 40.31%;
+    bottom: 54.93%;
+    font-size: 12px;
+    line-height: 28px;
+}
+.footer_menu22{
+    left: 5.6%;
+    right: 52.53%;
+    top: 45.79%;
+    bottom: 47.45%;
+    font-size: 12px;
+    line-height: 28px;
+}
+.footer_menu23{
+    left: 5.6%;
+    right: 45.33%;
+    top: 52.27%;
+    bottom: 39.97%;
+    font-size: 12px;
+    line-height: 28px;
+}
+.line{
+    display: block;
+    width:86%;
+    top: 35%;
+    size : 1px; 
+    left: 5.6%;
+}
+}

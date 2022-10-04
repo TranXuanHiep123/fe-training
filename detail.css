@@ -1,4 +1,5 @@
 .app{
+    position: relative;
     width: 1440px;
     height: 2444px;
     margin: 0 auto;
@@ -10,10 +11,12 @@
 }
 #main{
     position: absolute;
-    width: 1440px;
-    height: 2045px;
-    top: 80px;
+    width: 800px;
+    height: 1918px;
+    left: 320px;
+    top: 82px;
     margin: auto;
+    background: #FFFFFF;
 }
 #footer{
     position: absolute;
@@ -37,7 +40,7 @@
     left: 130px;
     top: 0px;
 }
-.material-symbols-outlined1{
+.material-symbols-outlined{
     position: absolute;
     top: -9999px;
 }
@@ -53,7 +56,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     list-style: none;
     text-decoration: none;
@@ -142,7 +145,214 @@
     border: 0.5px solid #000000;
 }
 /* main */
-
+.elip{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 36px;
+    top: 44px;
+    border-radius: 50%;
+    background: #6868ED;
+}
+.grants{
+    position: absolute;
+    width: 48px;
+    height: 39px;
+    left: 62px;
+    top: 22.5px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.x{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 42px;
+    left: 748px;
+}
+.h1{
+    position: absolute;
+    width: 535px;
+    height: 78px;
+    left: 133px;
+    top: 122px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+.main_menu{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #000000;
+}
+.main_menu1{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    left: 105px;
+    top: 260px;
+}
+.main_menu2{
+    position: absolute;
+    width: 72px;
+    height: 24px;
+    left: 105px;
+    top: 332px;
+}
+.main_menu3{
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    left: 105px;
+    top: 405px;
+}
+.main_menu4{
+    position: absolute;
+    width: 83px;
+    height: 24px;
+    left: 105px;
+    top: 477px;
+}
+.main_menu5{
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    left: 105px;
+    top: 549px;
+}
+.data{
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #A78730;
+}
+.data1{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    left: 420px;
+    top: 260px;
+}
+.data2{
+    position: absolute;
+    width: 142px;
+    height: 24px;
+    left: 420px;
+    top: 336px;
+}
+.data3{
+    position: absolute;
+    width: 260px;
+    height: 24px;
+    left: 420px;
+    top: 405px;
+}
+.data4{
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    left: 420px;
+    top: 477px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.pen1{
+    position: absolute;
+    left: 546px;
+    top: 499.12px;
+}
+.pen2{
+    position: absolute;
+    left: 555px;
+    top: 497px;
+}
+.main_line1{
+    position: absolute;
+    top: 308px;
+    width: 590px;
+    height: 0px;
+    left: 105px;
+    opacity: 0.15;
+    border: 1px solid #000000;
+}
+.main_line2{
+    position: absolute;
+    width: 590px;
+    height: 0px;
+    left: 105px;
+    top: 381px ;
+    opacity: 0.15;
+    border: 1px solid #000000;
+}
+.main_line3{
+    position: absolute;
+    top: 453px;
+    width: 590px;
+    height: 0px;
+    left: 105px; 
+    opacity: 0.15;
+    border: 1px solid #000000;
+}
+.main_line4{
+    position: absolute;
+    top: 525px; 
+    width: 590px;
+    height: 0px;
+    left: 105px;
+    opacity: 0.15;
+    border: 1px solid #000000;
+}
+.conten{
+    position: absolute;
+    width: 590px;
+    height: 1176px;
+    left: 105px;
+    top: 597px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.8;
+}
+.background-conten{
+    position: absolute;
+    width: 147px;
+    height: 41px;
+    left: 327px;
+    top: 1829px;
+    background: #A78730;
+    border-radius: 32px;
+}
+.site{
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    left: 50px;
+    top: -4px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
 /* footer */
 .footer1{
     position: absolute;
@@ -171,7 +381,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -199,7 +409,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -242,7 +452,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.6;
@@ -257,7 +467,7 @@
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 37px;
     color: #FFFFFF;
     opacity: 0.5;
