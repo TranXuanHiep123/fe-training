@@ -37,7 +37,7 @@
     left: 130px;
     top: 0px;
 }
-.material-symbols-outlined1{
+.top .material-symbols-outlined{
     position: absolute;
     top: -9999px;
 }
@@ -316,6 +316,12 @@
 .blink1{
     color:#A78730;
 }
+.nine1{
+    display: none;
+}
+.nine2{
+    display: none;
+}
 .num1{
     position: absolute;
     width: 26px;
@@ -427,7 +433,7 @@
     background: #A78730;
     border-radius: 22px;
 }
-.material-symbols-outlined{
+.Rectangle3 .material-symbols-outlined{
     position: absolute;
     width: 13px;
     height: 1.53px;
@@ -490,6 +496,9 @@
     flex-wrap: wrap;
     margin-left: 110px;
   }
+.gap_res{
+    display: none;
+}
 .gird {
     position: relative;
     width: 388px;
