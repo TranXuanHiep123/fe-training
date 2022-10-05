@@ -1,6 +1,10 @@
+.lewlewlew{
+    position: relative;
+    width: auto;
+}
 .app{
+    position: relative;
     width: 1440px;
-    height: 1818px;
     margin: 0 auto;
 }
 @font-face {
@@ -9,32 +13,38 @@
 }
 
 #main{
-    position: absolute;
-    width: 1440px;
+    position: relative;
+    width: 100%;
     height: 775px;
     margin: auto;
 }
-#footer{
-    position: absolute;
-    top: 1499px;
-    width: 1440px;
-    height: 319px;
+#footer_1{
+    position: relative;
+    top: 495px;
+    width: 100%;
+    height: 258.36px;
     margin: auto;
-
+    background-color: #292A2B;
+}
+#footer_2{
+    position: relative;
+    width: 100%;
+    top: 495px;
+    height: 60.64px;
+    margin: auto;
+    background: #0B0B0B;
 }
 #header{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 725px;
     margin: auto;
 }
-#header video{
+.lewlewlew video{
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    object-fit: cover;
+    height: 663px;
+    object-fit: fill;
 }
 .material-symbols-outlined{
     position: absolute;
@@ -182,7 +192,7 @@
     width: 540px;
     height: 462px;
     left: 165px;
-    top: 860px;
+    top: 735px;
     background: #F2F7FF;
     border-radius: 14px;
 }
@@ -191,7 +201,7 @@
     width: 540px;
     height: 462px;
     left: 735px;
-    top: 860px;
+    top: 735px;
     background: #FFFFE0;
     border-radius: 14px;
 }
@@ -421,19 +431,17 @@
 }
 /* footer */
 .footer1{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 19.01%;
+    position: relative;
+    width: 1440px;
+    height: 258.36px;
+    margin: auto;
     background: #292A2B;
 }
 .footer2{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 80.99%;
-    bottom: 0%;
+    position: relative;
+    width: 1440px;
+    height: 60.64px;
+    margin: auto;
     background: #0B0B0B;
 }
 .ymner1{
@@ -544,27 +552,25 @@
 @media only screen and (max-width: 600px){
 .app{
     width: 375px;
-    height: 2073px;
 }
 #main{
     width: 375px;
     height: 1157px;
-    top: 328px;
-}
-#footer{
-    top: 1485px;
-    width: 375px;
-    height: 588px;
-
 }
 #header{
     width: 375px;
     height: 328px;
 }
+#footer_1{
+    top: 290px;
+}
+#footer_2{
+    top: 485px;
+    height: 60.64px;
+}
 /* head */
-#header video{
-    width: 100%;
-    height: 100%;
+.lewlewlew video{
+    height: 328px;
 }
 .menu3{
     display: none;
@@ -619,14 +625,14 @@
     width: 350px;
     height: 584px;
     left: 12px;
-    top: 56px;
+    top: 384px;
     border-radius: 0px;
 }
 #box2{
     width: 350px;
     height: 392px;
     left: 12px;
-    top: 668px;
+    top: 996px;
     border-radius: 0px;
 }
 .doc11{
@@ -805,11 +811,15 @@ display: none;
     line-height: 28px;   
 }
 /* footer */
+.footer1{
+    position: relative;
+    width: 375px;
+    height: 455px;
+}
 .footer2{
-    left: 0%;
-    right: 0%;
-    top: 73.38%;
-    bottom: 0%;
+    position: relative;
+    width: 375px;
+    height: 133px;
 }
 .ymner1{
     width: 146px;
