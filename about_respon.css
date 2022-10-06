@@ -1,0 +1,322 @@
+@media only screen and (max-width: 600px){
+    .app{
+        width: 375px;
+    }
+    #main{
+        width: 375px;
+        height: 3394.29px;
+        top: 0px;
+    }
+    #header{
+        width: 375px;
+        height: 56px;
+    }
+    #footer_1{
+        top: 0px;
+        width: 375px;
+    }
+    #footer_2{
+        width: 375px;
+        top: 195px;
+        height: 60.64px;
+    }
+    /* head */
+    .top{
+        width: 375px;
+        height: auto;
+        left:2px;
+    }
+    .top li{
+        display: none;
+    }
+    .ymner{
+        width: 98px;
+        height: 44px;
+        left: 2px;
+        top: -10px;
+    }
+    .material-symbols-outlined{
+        width: 32px;
+        height: 21px;
+        top: 3px;
+        right: 57px;
+        color: #000000;
+    }
+    .line1{
+        width: 372px;
+        height: 0px;
+        left: 0px;
+        top: 100%;
+        border: 0.5px solid #000000;
+        opacity: 0.2;
+    }
+    /* main */
+    .doc{
+        font-size: 13px;
+    }
+    .doc1{
+        width: 170px;
+        height: 38px;
+        left: 13px;
+        top: 24px;
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .doc2{
+        width: 347px;
+        height: 96px;
+        left: 13px;
+        top: 78px;
+    }
+    .doc3{
+        width: 347px;
+        height: 120px;
+        left: 13px;
+        top: 184px;
+    }
+    .doc4{
+        width: 347px;
+        height: 48px;
+        left: 13px;
+        top: 314px;
+    }
+    .team{
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .team1{
+        width: 56px;
+        height: 38px;
+        left: 13px;
+        top: 410px;
+    }
+    .team2{
+        width: 89px;
+        height: 38px;
+        left: 13px;
+        top: 2803.77px;
+    }
+    .information{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .inf1{
+        width: 347px;
+        height: 192px;
+        left: 13px;
+        top: 963.2px;
+    }
+    .inf2{
+        width: 347px;
+        height: 216px;
+        left: 13px;
+        top: 1719.77px;
+    }
+    .inf3{
+        width: 347px;
+        height: 264px;
+        left: 13px;
+        top: 2483.77px;
+    }
+    .inf4{
+        width: 347px;
+        height: 66px;
+        left: 13px;
+        top: 3235.29px;
+    }
+    .name{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .name1{
+        width: 193px;
+        height: 28px;
+        left: 13px;
+        top: 891.2px;
+    }
+    .name2{
+        width: 127px;
+        height: 28px;
+        left: 13px;
+        top: 1647.77px;
+    }
+    .name3{
+        width: 91px;
+        height: 28px;
+        left: 13px;
+        top: 2411.97px;
+    }
+    .name4{
+        width: 183px;
+        height: 24px;
+        left: 13px;
+        top: 3167.32px;
+    }
+    .in{
+        width: 13.75px;
+        height: 13.75px;
+    }
+    .bgr1{
+        width: 240.72px;
+        height: 369.2px;
+        left: 13px;
+        top: 482px;
+    }
+    .bgr2{
+        width: 241.53px;
+        height: 361.57px;
+        left: 121.47px;
+        top: 1246.2px;
+    }
+    .bgr3{
+        width: 240.72px;
+        height: 369.2px;
+        left: 13px;
+        top: 2002.77px;
+    }
+    .bgr4{
+        width: 187.78px;
+        height: 245.56px;
+        left: 13px;
+        top: 2881.77px;
+    }
+    .po1{
+        width: 296.3px;
+        left: 52.39px;
+        top: 508.79px;
+    }
+    .po2{
+        width: 308.08px;
+        left: 16px;
+        top: 1282.77px;
+    }
+    .po3{
+        width: 296.3px;
+        left: 57.4px;
+        top: 2045.79px;
+    }
+    .po4{
+        width: 189.33px;
+        left: 48px;
+        top: 2912px;
+    }
+    /* footer */
+    .footer1{
+        width: 375px;
+        height: 455px;
+    }
+    .footer2{
+        width: 375px;
+        height: 133px;
+    }
+    .ymner1{
+        width: 146px;
+        height: 66px;
+        left: 1.07%;
+        right: 60%;
+        top: 3.25%;
+        bottom: 84.52%;
+    }
+    .Y{
+        position: absolute;
+        Width :23.56px;
+        Height:22px;
+        Top:29.61px;
+        Left:17.23px;
+    }
+    .M{
+        position: absolute;
+        Width :23.65px;
+        Height:21.77px;
+        Top:29.61px;
+        Left:42.89px;
+    }
+    .N{
+        position: absolute;
+        Width :18.42px;
+        Height:21.77px;
+        Top:29.61px;
+        Left:69.57px;
+    }
+    .E{
+        position: absolute;
+        Width :15.08px;
+        Height:21.77px;
+        Top:29.61px;
+        Left:91.03px;
+    }
+    .R{
+        position: absolute;
+        Width :18.82px;
+        Height:22px;
+        Top:29.61px;
+        Left:108.75px;
+    }
+    .anh{
+        left: 10%;
+        right: 81.95%;
+        top: 22.09%;
+        bottom: 7.52%;  
+    }
+    .eng{
+        left: 22.25%;
+        right: 75.42%;
+        top: 18.58%;
+    }
+    .link{
+        left: 9.6%;
+        right: 14.93%;
+        top: 49.1%;
+        bottom: 3.74%;
+        font-size: 11px;
+        line-height: 24px;
+    }
+    .footer_menu11{
+        left: 5.6%;
+        right: 61.67%;
+        top: 21%;
+        bottom: 74.32%;
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .footer_menu12{
+        left: 5.6%;
+        right: 65.07%;
+        top: 27%;
+        bottom: 66.84%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .footer_menu21{
+        left: 5.6%;
+        right: 69.87%;
+        top: 40.31%;
+        bottom: 54.93%;
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .footer_menu22{
+        left: 5.6%;
+        right: 52.53%;
+        top: 45.79%;
+        bottom: 47.45%;
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .footer_menu23{
+        left: 5.6%;
+        right: 45.33%;
+        top: 52.27%;
+        bottom: 39.97%;
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .line{
+        display: block;
+        width:86%;
+        top: 35%;
+        size : 1px; 
+        left: 5.6%;
+    }
+    }

@@ -1,34 +1,46 @@
+.lewlewlew{
+    position: relative;
+    width: auto;
+    background: #FFFFFF;
+}
 .app{
     position: relative;
     width: 1440px;
-    height: 2444px;
     margin: 0 auto;
-    background: #E5E5E5;
+    background: #FFFFFF;
 }
 @font-face {
     font-family: 'Centra No1';
-    src: url(../centrano1-and-no2-font/CentraNo1-Book.ttf);
+    src: url(centrano1-and-no2-font/CentraNo1-Book.ttf);
 }
 #main{
     position: absolute;
+    left: 320px;
     width: 800px;
     height: 1918px;
-    left: 320px;
-    top: 82px;
     margin: auto;
-    background: #FFFFFF;
+    top: 86px;
+    background-color: #FFFFFF;
 }
-#footer{
-    position: absolute;
-    top: 2125px;
-    width: 1440px;
-    height: 319px;
+#footer_1{
+    position: relative;
+    top: 1990px;
+    width: 100%;
+    height: 258.36px;
     margin: auto;
-
+    background-color: #292A2B;
+}
+#footer_2{
+    position: relative;
+    width: 100%;
+    top: 1990px;
+    height: 60.64px;
+    margin: auto;
+    background: #0B0B0B;
 }
 #header{
-    position: absolute;
-    width: 1440px;
+    position: relative;
+    width: 100%;
     height: 80px;
     margin: auto;
 }
@@ -135,12 +147,21 @@
     border: 1px solid #FFFFFF;
     border-radius: 28px;
 }
-.line1{
+/* .line1{
     position: absolute;
     left: 0%;
     right: 0%;
     top: 100%;
     bottom: 0%;
+    opacity: 0.2;
+    border: 0.5px solid #000000;
+} */
+.line10{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 19.8%;
+    bottom: 81.2%;
     opacity: 0.2;
     border: 0.5px solid #000000;
 }
@@ -355,19 +376,17 @@
 }
 /* footer */
 .footer1{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 19.01%;
+    position: relative;
+    width: 1440px;
+    height: 258.36px;
+    margin: auto;
     background: #292A2B;
 }
 .footer2{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 80.99%;
-    bottom: 0%;
+    position: relative;
+    width: 1440px;
+    height: 60.64px;
+    margin: auto;
     background: #0B0B0B;
 }
 .ymner1{
@@ -393,6 +412,7 @@
     right: 42.71%;
     top: 24.73%;
     bottom: 70.53%;
+    color: #FFFFFF;
 }
 .line{
     display: none;
@@ -421,6 +441,7 @@
     right: 24.51%;
     top: 21.94%;
     bottom: 69.28%;
+    color: #FFFFFF;
 }
 .footer_menu22{
     position: absolute;

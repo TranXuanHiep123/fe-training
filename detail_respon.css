@@ -1,24 +1,26 @@
 @media only screen and (max-width: 600px){
-    .app{
-        width: 375px;
-        height: 2943px;
-    }
-    #main{
-        width: 375px;
-        height: 2177px;
-        top: 59px;
-        left: 0px;
-    }
-    #footer{
-        top: 2355px;
-        width: 375px;
-        height: 588px;
-    
-    }
-    #header{
-        width: 375px;
-        height: 59px;
-    }
+.app{
+    width: 375px;
+}
+#main{
+    width: 375px;
+    height: 2177px;
+    top: 59px;
+    left: 0px;
+}
+#footer_1{
+    top: 2297px;
+    width: 375px;
+}
+#footer_2{
+    width: 375px;
+    top: 2490px;
+    height: 60.64px;
+}
+#header{
+    width: 375px;
+    height: 59px;
+}
 /* head */
 .top{
     width: 375px;
@@ -41,13 +43,9 @@
     right: 57px;
     color: #000000;
 }
-.line1{
-    width: 375px;
-    height: 0px;
-    left: 0px;
-    top: 100%;
-    border: 0.5px solid #000000;
-    opacity: 0.2;
+.line10{
+    top: 14.8%;
+    bottom: 86.2%;
 }
 /* main */
 .elip{
@@ -183,11 +181,13 @@
     border-radius: 32px;
 }
 /* footer */
+.footer1{
+    width: 375px;
+    height: 455px;
+}
 .footer2{
-    left: 0%;
-    right: 0%;
-    top: 73.38%;
-    bottom: 0%;
+    width: 375px;
+    height: 133px;
 }
 .ymner1{
     width: 146px;
