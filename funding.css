@@ -1,8 +1,13 @@
+.lewlewlew{
+    position: relative;
+    width: auto;
+    background: #FFFFFF;
+}
 .app{
+    position: relative;
     width: 1440px;
-    height: 2966px;
     margin: 0 auto;
-    background: #F2F7FF;
+    background: #FFFFFF;
 }
 @font-face {
     font-family: 'Centra No1';
@@ -14,18 +19,27 @@
     height: 2567px;
     top: 80px;
     margin: auto;
+    color: #E5E5E5;;
 }
-#footer{
-    position: absolute;
-    top: 2647px;
-    width: 1440px;
-    height: 319px;
+#footer_1{
+    position: relative;
+    top: 2768px;
+    width: 100%;
+    height: 258.36px;
     margin: auto;
-
+    background-color: #292A2B;
+}
+#footer_2{
+    position: relative;
+    width: 100%;
+    top: 2768px;
+    height: 60.64px;
+    margin: auto;
+    background: #0B0B0B;
 }
 #header{
-    position: absolute;
-    width: 1440px;
+    position: relative;
+    width: 100%;
     height: 80px;
     margin: auto;
 }
@@ -132,7 +146,7 @@
     border: 1px solid #FFFFFF;
     border-radius: 28px;
 }
-.line1{
+/* .line1{
     position: absolute;
     left: 0%;
     right: 0%;
@@ -140,6 +154,15 @@
     bottom: 0%;
     opacity: 0.2;
     border: 0.5px solid #000000;
+} */
+.line10{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 19.8%;
+    bottom: 81.2%;
+    opacity: 0.1;
+    border: 0.09px solid #000000;
 }
 /* main */
 .h1{
@@ -599,19 +622,17 @@
 }
 /* footer */
 .footer1{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 19.01%;
+    position: relative;
+    width: 1440px;
+    height: 258.36px;
+    margin: auto;
     background: #292A2B;
 }
 .footer2{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 80.99%;
-    bottom: 0%;
+    position: relative;
+    width: 1440px;
+    height: 60.64px;
+    margin: auto;
     background: #0B0B0B;
 }
 .ymner1{
@@ -637,6 +658,7 @@
     right: 42.71%;
     top: 24.73%;
     bottom: 70.53%;
+    color: #FFFFFF;
 }
 .line{
     display: none;
@@ -665,6 +687,7 @@
     right: 24.51%;
     top: 21.94%;
     bottom: 69.28%;
+    color: #FFFFFF;
 }
 .footer_menu22{
     position: absolute;

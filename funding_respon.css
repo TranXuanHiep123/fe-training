@@ -1,7 +1,6 @@
 @media only screen and (max-width: 600px){
     .app{
         width: 375px;
-        height: 3414px;
     }
     #main{
         width: 375px;
@@ -9,11 +8,14 @@
         top: 59px;
         left: 0px;
     }
-    #footer{
-        top: 2826px;
+    #footer_1{
+        top: 2768px;
         width: 375px;
-        height: 588px;
-    
+    }
+    #footer_2{
+        width: 375px;
+        top: 2965px;
+        height: 60.64px;
     }
     #header{
         width: 375px;
@@ -45,12 +47,15 @@
 .line1{
     display: none;
 }
+.line10{
+    display: none;
+}
 /* main */
 .h1{
     width: 177px;
     height: 28px;
     left: 13px;
-    top: 32px;
+    top: 20px;
     font-weight: 400;
     font-size: 22px;
     line-height: 39px;
@@ -276,11 +281,13 @@
     top: 2590px;
 }
 /* footer */
+.footer1{
+    width: 375px;
+    height: 455px;
+}
 .footer2{
-    left: 0%;
-    right: 0%;
-    top: 73.38%;
-    bottom: 0%;
+    width: 375px;
+    height: 133px;
 }
 .ymner1{
     width: 146px;
