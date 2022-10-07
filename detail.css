@@ -1,13 +1,14 @@
 .lewlewlew{
     position: relative;
     width: auto;
-    background: #FFFFFF;
+    background: #E5E5E5;
 }
 .app{
     position: relative;
     width: 1440px;
+    height: 1800px;
     margin: 0 auto;
-    background: #FFFFFF;
+    background: #E5E5E5;
 }
 @font-face {
     font-family: 'Centra No1';
@@ -24,7 +25,7 @@
 }
 #footer_1{
     position: relative;
-    top: 1990px;
+    top: 318px;
     width: 100%;
     height: 258.36px;
     margin: auto;
@@ -33,7 +34,7 @@
 #footer_2{
     position: relative;
     width: 100%;
-    top: 1990px;
+    top: 318px;
     height: 60.64px;
     margin: auto;
     background: #0B0B0B;
@@ -41,7 +42,7 @@
 #header{
     position: relative;
     width: 100%;
-    height: 80px;
+    height: 85px;
     margin: auto;
 }
 /* head */
@@ -147,23 +148,23 @@
     border: 1px solid #FFFFFF;
     border-radius: 28px;
 }
-/* .line1{
+.line1{
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 100%;
+    top: 96%;
     bottom: 0%;
     opacity: 0.2;
-    border: 0.5px solid #000000;
-} */
+    border: 0.09px solid
+}
 .line10{
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 19.8%;
-    bottom: 81.2%;
-    opacity: 0.1;
-    border: 0.09px solid #000000;
+    top: 3.8%;
+    bottom: 97%;
+    opacity: 0.2;
+    border: 0.09px solid #000000
 }
 /* main */
 .elip{
@@ -212,7 +213,7 @@
 .main_menu{
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
     color: #000000;
@@ -255,7 +256,7 @@
 .data{
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
@@ -288,7 +289,7 @@
     height: 24px;
     left: 420px;
     top: 477px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
 }

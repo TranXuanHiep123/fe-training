@@ -1,20 +1,21 @@
 @media only screen and (max-width: 600px){
 .app{
     width: 375px;
+    height: 2297px;
 }
 #main{
     width: 375px;
-    height: 2177px;
+    height: 2200px;
     top: 59px;
     left: 0px;
 }
 #footer_1{
-    top: 2297px;
+    top: 60px;
     width: 375px;
 }
 #footer_2{
     width: 375px;
-    top: 2490px;
+    top: 257px;
     height: 60.64px;
 }
 #header{
@@ -43,9 +44,11 @@
     right: 57px;
     color: #000000;
 }
+.line1{
+    display: none;
+}
 .line10{
-    top: 14.8%;
-    bottom: 86.2%;
+display: none;
 }
 /* main */
 .elip{
@@ -176,7 +179,7 @@
     width: 147px;
     height: 41px;
     left: 114px;
-    top: 2105px;
+    top: 2110px;
     background: #A78730;
     border-radius: 32px;
 }
