@@ -292,9 +292,11 @@
     position: absolute;
     width: 28px;
     height: 20px;
-    left: 256px;
-    top: 393px;
+    left: 66px;
+    top: 7px;
     color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.9375rem;
 }
 .Ellipse1{
     position: absolute;
@@ -400,26 +402,43 @@
     font-weight: 600;
     font-size: 1rem;
 }
-.number{
+.number1{
+    width: 50px;
+    height: 28px;
+    padding-left: 108px;
+    padding-top: 262px;
+    font-weight: 600;
+    color: #70A693;
+}
+.number2{
+    width: 35px;
+    height: 28px;
+    padding-left: 226px;
+    padding-top: 0px;
+    font-weight: 600;
     color: #70A693;
 }
 .doc35{
     position: absolute;
     width: 39px;
     height: 10px;
-    left: 252px;
-    top: 393px;
+    left: 63px;
+    top: 7px;
     color: #FFFFFF;
+    font-size: 0.9375rem    ;
 }
 .Rectangle1{
     position: absolute;
-    left: 39%;
-    right: 38%;
-    top: 84%;
-    bottom: 8%;
+    top: 382px;
+    left: 190px;
+    width: 160px;
+    height: 40px;
     background: #A28840;
     border-radius: 22px;
     }
+.Rectangle1:hover{
+    background-color: rgb(146, 118, 41);
+}
 .Rectangle2{
     position: absolute;
     display: none;
@@ -448,7 +467,7 @@
     position: absolute;
     left: 15%;
     right: 69.31%;
-    top: 35%;
+    top: 35.5%;
     bottom: 56.11%;
 }
 .footer_menu1{
@@ -457,17 +476,20 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #dddacc;
     opacity: 0.7;
     list-style: none;
+}
+.footer_menu1 :hover{
+    color: #FFFFFF;
 }
 .footer_menu11{
     position: absolute;
     left: 49.03%;
     right: 42.71%;
-    top: 24.73%;
-    bottom: 70.53%;
-    color: #FFFFFF;
+    top: 23.2%;
+    bottom: 70.53%;     
+    color: #dddacc;
 }
 .line{
     display: none;
@@ -476,9 +498,10 @@
 .footer_menu12{
     position: absolute;
     left: 49.03%;
-    right: 40%;
-    top: 39.87%;
+    right: 42.33%;
+    top: 38.87%;
     bottom: 54.86%;
+    color: #dddacc;
 }
 .footer_menu2{
     font-family: 'Centra No1';
@@ -486,9 +509,12 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #dddacc;
     opacity: 0.7;
     list-style: none;
+}
+.footer_menu2 :hover{
+    color: #ffffff;
 }
 .footer_menu21{
     position: absolute;
@@ -496,7 +522,7 @@
     right: 24.51%;
     top: 21.94%;
     bottom: 69.28%;
-    color: #FFFFFF;
+    color: #dddacc;
 }
 .footer_menu22{
     position: absolute;
@@ -504,6 +530,7 @@
     right: 20%;
     top: 37.62%;
     bottom: 53.61%;
+    color: #dddacc;
 }
 .footer_menu23{
     position: absolute;
@@ -511,6 +538,7 @@
     right: 18.12%;
     top: 53.29%;
     bottom: 37.93%;
+    color: #dddacc;
 }
 .anh{
     position: absolute;
@@ -530,24 +558,106 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #dddacc;
     opacity: 0.6;
     list-style: none;
 }
+.eng:hover{
+    color: #ffffff;
+}
 .link{
     position: absolute;
-    left: 52.18%;
-    right: 2.12%;
-    top: 25.95%;
-    bottom: 18.27%;
+    top: 12.64px;
+    left: 738px;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
     font-size: 0.9375rem;
-    line-height: 37px;
-    color: #FFFFFF;
+    line-height: 28px;
+    color: #dddacc;
     opacity: 0.5;
     list-style: none;
+}
+.link:hover{
+    color: #FFFFFF;
+}
+/* animation */
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+@keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 785;
+    }
+}
+.num1::after {
+    content: counter(num);
+}
+.num2::after {
+    content: counter(num);
+}
+.num3::after {
+    content: counter(num);
+}
+.num4::after {
+    content: counter(num);
+}
+.num1{
+    animation: counter 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    animation-fill-mode: forwards;
+}
+.num2{
+    animation: counter 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    animation-fill-mode: forwards;
+}
+.num3{
+    animation: counter 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    animation-fill-mode: forwards;
+}
+.num4{
+    animation: counter 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    animation-fill-mode: forwards;
+}
+@keyframes counter1 {
+    from {
+      --num: 10000;
+    }
+    to {
+      --num: 58496;
+    }
+}
+.number1{
+    animation: counter1 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    animation-fill-mode: forwards;
+}
+.number1::after {
+    content: counter(num);
+}
+@keyframes counter2 {
+    from {
+      --num: 50;
+    }
+    to {
+      --num: 164;
+    }
+}
+.number2{
+    animation: counter2 3s alternate ease-in-out;
+    counter-reset: num var(--num);
+    animation-fill-mode: forwards;
+}
+.number2::after {
+    content: counter(num);
 }
 
 

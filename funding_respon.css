@@ -301,35 +301,35 @@
     position: absolute;
     Width :23.56px;
     Height:22px;
-    Top:29.61px;
+    Top:39.61px;
     Left:17.23px;
 }
 .M{
     position: absolute;
     Width :23.65px;
     Height:21.77px;
-    Top:29.61px;
+    Top:39.61px;
     Left:42.89px;
 }
 .N{
     position: absolute;
     Width :18.42px;
     Height:21.77px;
-    Top:29.61px;
+    Top:39.61px;
     Left:69.57px;
 }
 .E{
     position: absolute;
     Width :15.08px;
     Height:21.77px;
-    Top:29.61px;
+    Top:39.61px;
     Left:91.03px;
 }
 .R{
     position: absolute;
     Width :18.82px;
     Height:22px;
-    Top:29.61px;
+    Top:39.61px;
     Left:108.75px;
 }
 .anh{
@@ -354,49 +354,51 @@
 .footer_menu11{
     left: 5.6%;
     right: 61.67%;
-    top: 21%;
+    top: 23%;
     bottom: 74.32%;
-    font-size: 12px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 28px;  
 }
 .footer_menu12{
     left: 5.6%;
-    right: 65.07%;
-    top: 27%;
+    right: 64.07%;
+    top: 32%;
     bottom: 66.84%;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 28px;
 }
 .footer_menu21{
     left: 5.6%;
-    right: 69.87%;
-    top: 40.31%;
+    right: 60.87%;
+    top: 43%;
     bottom: 54.93%;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 28px;
 }
 .footer_menu22{
     left: 5.6%;
-    right: 52.53%;
-    top: 45.79%;
+    right: 50.53%;
+    top: 50.79%;
     bottom: 47.45%;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 28px;
 }
 .footer_menu23{
     left: 5.6%;
     right: 45.33%;
-    top: 52.27%;
+    top: 59.27%;
     bottom: 39.97%;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 28px;
 }
 .line{
     display: block;
     width:86%;
-    top: 35%;
+    top: 38.5%;
     size : 1px; 
     left: 5.6%;
+    font-size: 14px;
+    line-height: 24px;
 }
 }

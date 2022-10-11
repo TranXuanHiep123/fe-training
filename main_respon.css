@@ -16,7 +16,7 @@
     }
     #footer_2{
         width: 375px;
-        top: 485px;
+        top: 430px;
         height: 60.64px;
     }
     /* head */
@@ -140,9 +140,9 @@
     .doc25{
         width: 40px;
         height: 20px;
-        left: 45.67%;
-        right: 36.67%;
-        top: 86.5%;
+        left: 40.67%;
+        right: 25.67%;
+        top: 31.5%;
         bottom: 30%;
         font-weight: 500;
         font-size: 1rem;
@@ -157,7 +157,7 @@
         line-height: 28px;
     }
     .doc32{
-        width: 258px;
+        width: 304px;
         height: 104px;
         left: 24px;
         top: 70px;
@@ -176,34 +176,47 @@
         line-height: 28px;
     }
     .doc35{
-        left: 45.67%;
+        left: 36.67%;
         right: 36.67%;
-        top: 85.5%;
+        top: 29.5%;
         bottom: 30%;
         font-size: 1rem;
         line-height: 17px;
+    }
+    .number1{
+        padding-left: 100px;
+        padding-top: 178px;
+    }
+    .number2{
+        padding-left:83px;
+        padding-top: 28px;
     }
     .Rectangle1{
     display: none;
     }
     .Rectangle2{
         display: block;
-        left: 35%;
-        right: 34%;
-        top: 85%;
-        bottom: 8.57%;
+        width: 150px;
+        height: 40px;
+        left: 100px;
+        top: 504px;
         background: #A28840;
         border-radius: 22px;
     }
+    .Rectangle2:hover{
+        background-color: rgb(146, 118, 41);
+    }
     .Rectangle3{
         display: block;
-        left: 37%;
-        right: 34%;
-        top: 83.5%;
-        bottom: 8%;
+        width: 150px;
+        height: 40px;
+        left: 99px;
+        top: 312px;
         background: #A28840;
         border-radius: 22px;
-    
+    }
+    .Rectangle3:hover{
+        background-color: rgb(146, 118, 41);
     }
     .Ellipse1{
         width: 24px;
@@ -282,35 +295,35 @@
         position: absolute;
         Width :23.56px;
         Height:22px;
-        Top:29.61px;
+        Top:39.61px;
         Left:17.23px;
     }
     .M{
         position: absolute;
         Width :23.65px;
         Height:21.77px;
-        Top:29.61px;
+        Top:39.61px;
         Left:42.89px;
     }
     .N{
         position: absolute;
         Width :18.42px;
         Height:21.77px;
-        Top:29.61px;
+        Top:39.61px;
         Left:69.57px;
     }
     .E{
         position: absolute;
         Width :15.08px;
         Height:21.77px;
-        Top:29.61px;
+        Top:39.61px;
         Left:91.03px;
     }
     .R{
         position: absolute;
         Width :18.82px;
         Height:22px;
-        Top:29.61px;
+        Top:39.61px;
         Left:108.75px;
     }
     .anh{
@@ -335,50 +348,52 @@
     .footer_menu11{
         left: 5.6%;
         right: 61.67%;
-        top: 21%;
+        top: 23%;
         bottom: 74.32%;
-        font-size: 12px;
-        line-height: 28px;
+        font-size: 15px;
+        line-height: 28px;  
     }
     .footer_menu12{
         left: 5.6%;
-        right: 65.07%;
-        top: 27%;
+        right: 64.07%;
+        top: 32%;
         bottom: 66.84%;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 28px;
     }
     .footer_menu21{
         left: 5.6%;
-        right: 69.87%;
-        top: 40.31%;
+        right: 60.87%;
+        top: 43%;
         bottom: 54.93%;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 28px;
     }
     .footer_menu22{
         left: 5.6%;
-        right: 52.53%;
-        top: 45.79%;
+        right: 50.53%;
+        top: 50.79%;
         bottom: 47.45%;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 28px;
     }
     .footer_menu23{
         left: 5.6%;
         right: 45.33%;
-        top: 52.27%;
+        top: 59.27%;
         bottom: 39.97%;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 28px;
     }
     .line{
         display: block;
         width:86%;
-        top: 35%;
+        top: 38.5%;
         size : 1px; 
         left: 5.6%;
+        font-size: 14px;
+        line-height: 24px;
     }
     }
     

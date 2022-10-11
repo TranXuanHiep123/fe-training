@@ -394,7 +394,7 @@
     position: absolute;
     left: 15%;
     right: 69.31%;
-    top: 35%;
+    top: 35.5%;
     bottom: 56.11%;
 }
 .footer_menu1{
@@ -403,17 +403,20 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #dddacc;
     opacity: 0.7;
     list-style: none;
+}
+.footer_menu1 :hover{
+    color: #FFFFFF;
 }
 .footer_menu11{
     position: absolute;
     left: 49.03%;
     right: 42.71%;
-    top: 24.73%;
-    bottom: 70.53%;
-    color: #FFFFFF;
+    top: 23.2%;
+    bottom: 70.53%;     
+    color: #dddacc;
 }
 .line{
     display: none;
@@ -422,9 +425,10 @@
 .footer_menu12{
     position: absolute;
     left: 49.03%;
-    right: 40%;
-    top: 39.87%;
+    right: 42.33%;
+    top: 38.87%;
     bottom: 54.86%;
+    color: #dddacc;
 }
 .footer_menu2{
     font-family: 'Centra No1';
@@ -432,9 +436,12 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #dddacc;
     opacity: 0.7;
     list-style: none;
+}
+.footer_menu2 :hover{
+    color: #ffffff;
 }
 .footer_menu21{
     position: absolute;
@@ -442,7 +449,7 @@
     right: 24.51%;
     top: 21.94%;
     bottom: 69.28%;
-    color: #FFFFFF;
+    color: #dddacc;
 }
 .footer_menu22{
     position: absolute;
@@ -450,6 +457,7 @@
     right: 20%;
     top: 37.62%;
     bottom: 53.61%;
+    color: #dddacc;
 }
 .footer_menu23{
     position: absolute;
@@ -457,6 +465,7 @@
     right: 18.12%;
     top: 53.29%;
     bottom: 37.93%;
+    color: #dddacc;
 }
 .anh{
     position: absolute;
@@ -476,22 +485,26 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #dddacc;
     opacity: 0.6;
     list-style: none;
 }
+.eng:hover{
+    color: #ffffff;
+}
 .link{
     position: absolute;
-    left: 52.18%;
-    right: 2.12%;
-    top: 25.95%;
-    bottom: 18.27%;
+    top: 12.64px;
+    left: 738px;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
     font-size: 0.9375rem;
-    line-height: 37px;
-    color: #FFFFFF;
+    line-height: 28px;
+    color: #dddacc;
     opacity: 0.5;
     list-style: none;
+}
+.link:hover{
+    color: #FFFFFF;
 }

@@ -197,12 +197,11 @@
 }
 .line2{
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 100%;
-    opacity: 0.9;
-    border: 0.5px solid #4350AF;
+    width :287px ;
+    top :-11px; 
+    height: 4px;
+    border-radius: 22px;
+    background-color: #4350AF;
 }
 .lew2{
     position: absolute;
@@ -216,7 +215,7 @@
     font-size: 22px;
     line-height: 28px;
     color: #000000;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .lew3{
     position: absolute;
@@ -230,7 +229,7 @@
     font-size: 22px;
     line-height: 28px;
     color: #000000;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .lew4{
     position: absolute;
@@ -244,7 +243,7 @@
     font-size: 22px;
     line-height: 28px;
     color: #000000;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .backgr{
     position: absolute;
@@ -261,6 +260,9 @@
     left: 23px;
     top: 29px;
     list-style: none;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
 }
 .doc2{
     position: absolute;
@@ -269,6 +271,9 @@
     left: 23px;
     top: 29px;
     list-style: none;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
 }
 .doc3{
     position: absolute;
@@ -277,6 +282,9 @@
     left: 23px;
     top: 29px;
     list-style: none;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
 }
 .doc4{
     position: absolute;
@@ -285,6 +293,9 @@
     left: 23px;
     top: 29px;
     list-style: none;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
 }
 .doc_main{
     position: absolute;
@@ -298,8 +309,14 @@
     font-size: 1rem;
     line-height: 24px;
     color: #000000;
-    opacity: 0.9;
+    opacity: 0.6;
     list-style: none;
+}
+.lew1 .doc_main{
+    opacity: 0.7;
+}
+.lew1 .list{
+    opacity: 0.7;
 }
 .o1{
     position: absolute;
@@ -333,7 +350,7 @@
     position: absolute;
     top: 40.06px;
     left: 258px;
-    width: 8.87px;
+    width: 9.87px;
     height: 6px;
 }
 .blink1{
@@ -358,6 +375,7 @@
     line-height: 28px;
     color: #4350AF;
     list-style: none;
+    opacity: 0.8;
 }
 .num2{
     position: absolute;
@@ -372,6 +390,7 @@
     line-height: 28px;
     color: #619D87;
     list-style: none;
+    opacity: 0.8;
 }
 .num3{
     position: absolute;
@@ -386,6 +405,7 @@
     line-height: 28px;
     color: #EB5181;
     list-style: none;
+    opacity: 0.8;
 }
 .num4{
     position: absolute;
@@ -400,6 +420,7 @@
     line-height: 28px;
     color: #EF8A40;
     list-style: none;
+    opacity: 0.8;
 }
 .list{
     position: absolute;
@@ -412,6 +433,7 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 24px;
+    opacity: 0.7;
 }
 .search{
     box-sizing: border-box;
@@ -493,6 +515,7 @@
     height: 21px;
     left: 109px;
     top: 560px;
+    font-weight: 500;
 }
 .so{
     position: absolute;
@@ -501,12 +524,18 @@
     left: 894px;
     top: 560px;
 }
+.so .font{
+    font-weight: 600;
+}
 .sh{
     position: absolute;
     width: 250px;
     height: 21px;
     left: 1132px;
     top: 560px;
+}
+.sh .font{
+    font-weight: 600;
 }
 .font{
     color: #A78730;
@@ -530,6 +559,9 @@
     background-color:#FFFFFF;
     margin-left: 28px;
   }
+.gap :hover{
+    box-shadow: 1px 1px 15px 5px #dddacc;
+}
 .gird1{
     position: absolute;
     width: 336px;
@@ -538,7 +570,7 @@
     top: 5px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 26px;
     color: #000000;
@@ -639,7 +671,7 @@
     position: absolute;
     left: 15%;
     right: 69.31%;
-    top: 35%;
+    top: 35.5%;
     bottom: 56.11%;
 }
 .footer_menu1{
@@ -648,17 +680,20 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #dddacc;
     opacity: 0.7;
     list-style: none;
+}
+.footer_menu1 :hover{
+    color: #FFFFFF;
 }
 .footer_menu11{
     position: absolute;
     left: 49.03%;
     right: 42.71%;
-    top: 24.73%;
-    bottom: 70.53%;
-    color: #FFFFFF;
+    top: 23.2%;
+    bottom: 70.53%;     
+    color: #dddacc;
 }
 .line{
     display: none;
@@ -667,9 +702,10 @@
 .footer_menu12{
     position: absolute;
     left: 49.03%;
-    right: 40%;
-    top: 39.87%;
+    right: 42.33%;
+    top: 38.87%;
     bottom: 54.86%;
+    color: #dddacc;
 }
 .footer_menu2{
     font-family: 'Centra No1';
@@ -677,9 +713,12 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #dddacc;
     opacity: 0.7;
     list-style: none;
+}
+.footer_menu2 :hover{
+    color: #ffffff;
 }
 .footer_menu21{
     position: absolute;
@@ -687,7 +726,7 @@
     right: 24.51%;
     top: 21.94%;
     bottom: 69.28%;
-    color: #FFFFFF;
+    color: #dddacc;
 }
 .footer_menu22{
     position: absolute;
@@ -695,6 +734,7 @@
     right: 20%;
     top: 37.62%;
     bottom: 53.61%;
+    color: #dddacc;
 }
 .footer_menu23{
     position: absolute;
@@ -702,6 +742,7 @@
     right: 18.12%;
     top: 53.29%;
     bottom: 37.93%;
+    color: #dddacc;
 }
 .anh{
     position: absolute;
@@ -721,22 +762,26 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #dddacc;
     opacity: 0.6;
     list-style: none;
 }
+.eng:hover{
+    color: #ffffff;
+}
 .link{
     position: absolute;
-    left: 52.18%;
-    right: 2.12%;
-    top: 25.95%;
-    bottom: 18.27%;
+    top: 12.64px;
+    left: 738px;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
     font-size: 0.9375rem;
-    line-height: 37px;
-    color: #FFFFFF;
+    line-height: 28px;
+    color: #dddacc;
     opacity: 0.5;
     list-style: none;
+}
+.link:hover{
+    color: #FFFFFF;
 }
