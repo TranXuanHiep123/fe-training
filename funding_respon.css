@@ -14,7 +14,7 @@
     }
     #footer_2{
         width: 375px;
-        top: 436.5px;
+        top: 375.5px;
         height: 60.64px;
     }
     #header{
@@ -35,12 +35,12 @@
     width: 98px;
     height: 44px;
     left: 2px;
-    top: -10px;
+    top: 0px;
 }
 .top .material-symbols-outlined{
     width: 32px;
     height: 21px;
-    top: 3px;
+    top: 10px;
     right: 57px;
     color: #000000;
 }
@@ -84,6 +84,9 @@
     left: 27px;
     top: 600px;
 }
+.line2{
+    width :348px ;
+}
 .doc1{
     left: 15px;
 }
@@ -124,10 +127,22 @@
 }
 .mu{
     position: absolute;
+    display: none;
     top: 40.06px;
     left: 316px;
     width: 10px;
     height: 6px;
+}
+.mu2{
+    position: absolute;
+    display: block;
+    top: 40.06px;
+    left: 316px;
+    width: 10px;
+    height: 6px;
+}
+.lew1 .mu{
+    display: block;
 }
 .num1{
     left: 57px;
@@ -215,9 +230,13 @@
 .re{
     left: 13px;
     top: 826px;
+    font-weight: 600;
 }
 .so {
     display: none;
+}
+.so .font{
+    display: block;
 }
 .sh{
     display: none;
@@ -263,6 +282,7 @@
     left: 20px;
     top: 5px;
     line-height: 30px;
+    font-weight: 600;
   }
 .elip1{
     left: 5.71%;
