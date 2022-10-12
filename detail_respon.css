@@ -183,6 +183,9 @@ display: none;
     background: #A78730;
     border-radius: 32px;
 }
+.site{
+    top: -6px;
+}
 /* footer */
 .footer1{
     width: 375px;
