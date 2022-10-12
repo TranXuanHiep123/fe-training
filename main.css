@@ -439,6 +439,7 @@
     height: 40px;
     background: #A28840;
     border-radius: 22px;
+    z-index: 1;
     }
 .Rectangle1:hover{
     background-color: rgb(146, 118, 41);
@@ -447,7 +448,7 @@
     position: absolute;
     display: none;
 
-}
+}   
 .Rectangle3{
     position: absolute;
     display: none;

@@ -648,6 +648,9 @@
     border: 1px solid #A78730;
     border-radius: 22px;
 }
+.box:hover{
+    background-color: rgb(240, 240, 240);
+}
 .text{
     position: absolute;
     width: 77px;
