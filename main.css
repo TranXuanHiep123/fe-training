@@ -333,6 +333,7 @@
     left: 64px;
     top: 292px;
     color: #4350AF;
+    font-weight: 500;
 }
 .num2{
     position: absolute;
@@ -341,6 +342,7 @@
     left: 180px;
     top: 292px;  
     color: #619D87;  
+    font-weight: 500;
 }
 .num3{
     position: absolute;
@@ -349,6 +351,7 @@
     left: 328px;
     top: 292px;
     color: #EB5181;
+    font-weight: 500;
 }
 .num4{
     position: absolute;
@@ -357,6 +360,7 @@
     left: 452px;
     top: 292px;
     color: #EF8A40;
+    font-weight: 500;
 }
 .doc3{
     font-family: 'Centra No1';

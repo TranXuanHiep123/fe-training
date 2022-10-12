@@ -543,6 +543,12 @@
 .font{
     color: #A78730;
 }
+.font1{
+    display: none;
+}
+.font2{
+    display: none;
+}
 .gap{
     position: absolute;
     top : 600px;

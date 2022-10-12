@@ -241,18 +241,28 @@
 .sh{
     display: none;
 }
-.so .font{
+.font1{
     display: block;
     position: absolute;
     width: 108px;
     height: 20px;
     left: 13px;
-    top: 810px;
-    font-weight: 500;
+    top: 780px;
+    font-weight: 600;
     font-size: 15px;
     line-height: 19px;
+    color: #A78730;
 }
-.font{
+.font2{
+    display: block;
+    position: absolute;
+    width: 158px;
+    height: 20px;
+    left: 203px;
+    top: 780px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
     color: #A78730;
 }
 .gap{
