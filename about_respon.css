@@ -50,6 +50,12 @@
         border: 0.5px solid #000000;
         opacity: 0.2;
     }
+    .line10{
+        top: 1.45%;
+        bottom: 100.2%;
+        border: 0.5px solid #000000;
+        opacity: 0.2;
+    }
     /* main */
     .doc{
         font-size: 13px;
