@@ -367,13 +367,16 @@
     width: 48px;
     height: 21px;
     left: 50px;
-    top: -4px;
+    top: -5px;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
+}
+.background-conten:hover{
+    background: rgb(146, 118, 41);
 }
 /* footer */
 .footer1{
