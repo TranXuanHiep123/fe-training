@@ -481,6 +481,9 @@
     background: #A78730;
     border-radius: 22px;
 }
+.Rectangle3:hover{
+    background: rgb(146,118,41);
+}
 .Rectangle3 .material-symbols-outlined{
     position: absolute;
     width: 13px;
